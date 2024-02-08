@@ -1,8 +1,8 @@
 import React from 'react'
 import './Hero.css'
-import hand_pic from '../Assets/hand_pic.jpg'
 import arrow from '../Assets/arrow.png'
-import hero from '../Assets/hero_img.jpg'
+import hero from '../Assets/shema.jpg'
+
  
 function Hero() {
   return (
@@ -11,8 +11,8 @@ function Hero() {
 <h2>NEW ARRIVAL ONLY </h2>
 <div>
 <div className="hand-hand-icon">
-    <p>new</p>
-   <img src={hand_pic} alt="" />
+    <p>New</p>
+   <span class="wave" width={100}>👋</span>
 </div>
 <p>Collections</p>
 <p>For Everyone</p>
@@ -24,7 +24,9 @@ function Hero() {
 </div>
 </div>
 <div className="hero-right">
-<img src={hero} alt="" width={400}/>
+ 
+<img src={hero} alt="" width={380} />
+
 </div>
     </div>
   )

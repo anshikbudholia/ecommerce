@@ -1,6 +1,6 @@
 import React from 'react'
 import './Explore.css'
-import exclusive_img from '../Assets/p1_product.jpg'
+import k23 from '../Assets/k24.jpg'
 const Explore=() => {
   return (
     <div className='offers'>
@@ -11,7 +11,7 @@ const Explore=() => {
        <button> check now</button>
         </div>
         <div className="offers-right">
-         <img src={exclusive_img} alt="" />
+         <img src={k23} alt="" width={250}/>
         </div>
     </div>
   )

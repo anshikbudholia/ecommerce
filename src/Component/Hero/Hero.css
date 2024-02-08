@@ -29,7 +29,7 @@
     gap: 20px;
 }
 .hand-hand-icon img{
-    width: 50px;
+    width: 40px;
     background: #fde1ff;
 }
 .hero-latest-btn{
@@ -43,12 +43,13 @@
     margin-top: 30px;
     background: white;
     color: rgb(204, 58, 14);
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 900;
  
 }
 .hero-latest-btn img{
     width: 50px;
+    background: #ddc4de;
 
 }
 .hero-right{
@@ -56,4 +57,123 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #ddc4de;
 }
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+    font-size: 3.5em;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  @media(max-width:1280px){
+    .hero-left{
+        padding-left: 100px;
+    }
+    .hero-left h2{
+        font-size: 27px;
+    }
+    .hero-left p{
+        font-size: 70px;
+    }
+    .hero-hand-icon span .wave{
+        width: 80px;
+    }
+    .hero-latest-btn{
+        gap: 10px;
+        width: 250px;
+        height: 60px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .hero-right img{
+        width: 350px;
+    }
+  }
+  
+  @media(max-width:1024px){
+    .hero-left{
+        padding-left: 80px;
+    }
+    .hero-left h2{
+        font-size: 25px;
+    }
+    .hero-left p{
+        font-size: 60px;
+    }
+     .wave{
+        width: 60px;
+    }
+    .hero-latest-btn{
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .hero-right img{
+        width: 300px;
+    }
+
+
+  }
+  
+  @media(max-width:800px){
+    .hero-left{
+        padding-left: 50px;
+    }
+    .hero-left h2{
+        font-size: 20px;
+    }
+    .hero-left p{
+        font-size: 50px;
+    }
+     .wave{
+        width: 50px;
+    }
+    .hero-latest-btn{
+        width: 175px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .hero-right img{
+        width: 200px;
+    }
+    
+
+  }
+  @media(max-width:500px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-right{
+        display: none;
+    }
+    .hero-left h2{
+        font-size: 18px;
+    }
+    .hero-left p{
+         font-size: 50px;
+    }
+    .hero-hand-icon span{
+        width: 55px;
+    }
+    .hero-latest-btn{
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+    }
+  }
+  
+  /* For demonstration purposes only: */
+ 

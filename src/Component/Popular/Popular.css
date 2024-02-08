@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    height: 90vh;
+    gap: 20px;
+    height: 100vh;
+    margin-top: 30px;
 }
 .popular h1{
     color: #171717;
@@ -20,4 +21,75 @@
     margin-top: 50px;
     display: flex;
     gap: 30px;
+}
+
+    
+@media(max-width:1280px){
+    .popular{
+        height: 90vh;
+    }
+    .popular h1{
+        font-size: 35px;
+ 
+    }
+    .popular hr{
+        width: 160px;
+        height: 4px;
+    }
+    .popular-item{
+        gap: 5px;
+        margin-top: 30px;
+    }
+    
+}
+@media(max-width:1024px){
+    .popular{
+        height: 90vh;
+    }
+    .popular h1{
+        font-size: 30px;
+ 
+    }
+    .popular hr{
+        width: 90px;
+       
+    }
+    .popular-item{
+        gap: 0px;
+        margin-top: 10px;
+        margin-left: 34px;
+    
+    }
+    
+}
+@media(max-width:800px){
+    .popular{
+        height: 80vh;
+        gap: 6px;
+    }
+    .popular h1{
+        font-size: 20px;
+ 
+    }
+    .popular hr{
+        width: 120px;
+        height: 3px;
+    }
+    .popular-item{
+        gap: 0px;
+        margin-left: 254px;
+    
+    }
+ 
+}
+@media(max-width:500px){
+    .popular{
+        height: 150vh;
+       
+    }
+    .popular-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr
+        
+    }
 }

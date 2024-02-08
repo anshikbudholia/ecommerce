@@ -5,7 +5,9 @@ import dropdown_icon from '../Component/Assets/dropdown_icon.png'
 import Item from "../Component/Items/Item"
 import { ShopContezt } from "../Contezt/ShopContezt"
 
-const ShopCategory = (props) => {
+const ShopCategory = (props) => { 
+ 
+
 const {product} = useContext(ShopContezt);
 return(
   <div className="shop-category">

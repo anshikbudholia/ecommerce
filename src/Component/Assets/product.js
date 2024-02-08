@@ -1,30 +1,30 @@
-import a1_img from "./a1.jpg";
-import a2_img from "./a2.jpg";
-import a3_img from "./a3.jpg";
-import a4_img from "./a4.jpg";
-import a5_img from "./a5.jpg";
-import a6_img from "./a6.jpg";
-import a7_img from "./a7.jpg";
-import a8_img from "./a8.jpg";
-import a9_img from "./a9.jpg";
-import a10_img from "./a10.jpg";
-import a11_img from "./a11.jpg";
-import a13_img from "./a13.jpg";
-import a16_img from "./a16.jpg";
-import a17_img from "./a17.jpg";
-import a19_img from "./a19.jpg";
-import a20_img from "./a20.jpg";
-import a21_img from "./a21.jpg";
-import a22_img from "./a22.jpg";
-import a23_img from "./a23.jpg";
-import a24_img from "./a24.jpg";
-import a26_img from "./a26.jpg";
-import a27_img from "./a27.jpg";
-import a28_img from "./a28.jpg";
-import a29_img from "./a29.jpg";
-import a30_img from "./a30.jpg";
-import a31_img from "./a31.jpg";
-import a32_img from "./a32.jpg";
+import p3_img from "./p3.jpeg";
+import p4_img from "./p4.jpeg";
+import m4_img from "./m4.jpg";
+import k5_img from "./k5.jpg";
+import p5_img from "./p5.jpeg";
+import p6_img from "./p6.jpeg";
+import k7_img from "./k7.jpg";
+import k8_img from "./k8.jpg";
+import k6_img from "./k6.jpg";
+import k1_img from "./k1.jpg";
+import k2_img from "./k2.jpg";
+import k3_img from "./k3.jpg";
+import a14_img from "./a14.jpg";
+import k4_img from "./k4.jpg";
+import p17_img from "./p17.jpg";
+import a18_img from "./a18.jpg";
+import p2_img from "./p2.jpeg";
+import p22_img from "./p22.jpg";
+import m5_img from "./m5.jpg";
+import p24_img from "./p24.jpg";
+import k20_img from "./k20.jpg";
+import k21_img from "./k21.jpg";
+import k22_img from "./k22.jpg";
+import k16_img from "./k16.jpg";
+import k11_img from "./k11.jpg";
+import k10_img from "./k10.jpg";
+import p7_img from "./p7.jpeg";
 
 
 let product = [
@@ -32,7 +32,7 @@ let product = [
     id: 1,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a1_img,
+    image: p3_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -40,7 +40,7 @@ let product = [
     id: 2,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a2_img,
+    image: p4_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -48,7 +48,7 @@ let product = [
     id: 3,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a3_img,
+    image: m4_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -56,7 +56,7 @@ let product = [
     id: 4,
     name: "Mens Printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a4_img,
+    image: k5_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -65,7 +65,7 @@ let product = [
     id: 5,
     name: "Mens printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a5_img,
+    image: p5_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -73,7 +73,7 @@ let product = [
     id: 6,
     name: "Mens printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a6_img,
+    image: p6_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -82,7 +82,7 @@ let product = [
     id: 32,
     name: "Mens printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a32_img,
+    image: p7_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -90,7 +90,7 @@ let product = [
     id: 7,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a7_img,
+    image: k7_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -99,7 +99,7 @@ let product = [
     id: 8,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a8_img,
+    image: k8_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -107,7 +107,7 @@ let product = [
     id: 9,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a9_img,
+    image: k6_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -115,7 +115,7 @@ let product = [
     id: 10,
     name: "Mens Printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a10_img,
+    image: k1_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -123,7 +123,7 @@ let product = [
     id: 11,
     name: "Mens Printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a11_img,
+    image: k2_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -132,7 +132,7 @@ let product = [
     id: 13,
     name: "Mens Printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a13_img,
+    image: k3_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -141,7 +141,7 @@ let product = [
     id: 16,
     name: "Mens Printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a16_img,
+    image: a14_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -150,7 +150,7 @@ let product = [
     id: 17,
     name: "Mens Printed SweatShirts Coloured WhiteSmoke",
     category: "Men",
-    image: a17_img,
+    image: k4_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -159,7 +159,7 @@ let product = [
     id: 19,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a19_img,
+    image: p17_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -167,7 +167,7 @@ let product = [
     id: 20,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a20_img,
+    image: a18_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -175,7 +175,7 @@ let product = [
     id: 21,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a21_img,
+    image: p2_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -183,7 +183,7 @@ let product = [
     id: 22,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a22_img,
+    image: p22_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -191,7 +191,7 @@ let product = [
     id: 23,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a23_img,
+    image: m5_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -199,7 +199,7 @@ let product = [
     id: 24,
     name: "Striped Flutter sleeve overlap collar peplum hem blouse",
     category: "Women",
-    image: a24_img,
+    image: p24_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -207,7 +207,7 @@ let product = [
     id: 26,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a26_img,
+    image: k20_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -215,7 +215,7 @@ let product = [
     id: 27,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a27_img,
+    image: k21_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -223,7 +223,7 @@ let product = [
     id: 28,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a28_img,
+    image: k22_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -231,7 +231,7 @@ let product = [
     id: 29,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a29_img,
+    image: k16_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -240,7 +240,7 @@ let product = [
     id: 30,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a30_img,
+    image: k11_img,
     new_price: 50.0,
     old_price: 80.5,
   },
@@ -248,7 +248,7 @@ let product = [
     id: 31,
     name: "Boys Orange Colourblocked Hooded sweatshirt",
     category: "kid",
-    image: a31_img,
+    image: k10_img,
     new_price: 50.0,
     old_price: 80.5,
   },

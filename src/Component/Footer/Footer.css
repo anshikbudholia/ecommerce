@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
 }
 .footer-logo{
     display: flex;
     align-items: center;
-    gap: 5px;
+  gap: 0px;
 }
 .footer-logo p{
     color: #383838;
@@ -47,4 +47,31 @@
     border-radius: 10px;
     height: 3px;
     background: #c7c7c7;
+}
+@media(max-width:800px){
+    .footer{
+        gap: 6px;
+    }
+    .footer-logo{
+        gap: 0px;
+        align-items: center;
+    }
+    .footer-logo img{
+        width: 80px;
+    }
+    .footer-logo p{
+        font-size: 25px;
+    }
+    .footer-links{
+        font-size: 14px;
+        gap: 24px;
+    }
+    .footer-social-icon img{
+        width: 30px;
+        margin-right: -11px;
+    }
+    .footer-copyright{
+        font-size: 13px;
+        padding-left: 46px;
+    }
 }

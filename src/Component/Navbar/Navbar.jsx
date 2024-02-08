@@ -1,30 +1,44 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.jpg'
 import logo_cart from '../Assets/logo_cart.jpg'
 import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import { ShopContezt } from '../../Contezt/ShopContezt'
+import nav_dropdown from '../Assets/dropdown_icon.png'
 const Navbar = () => {
 
   const [menu,setMenu] = useState("shop")
+  const {getTotalCartItems}= useContext(ShopContezt);
+  const menuRef = useRef();
+
+  const dropdown_toggle =(e) =>{
+     menuRef.current.classList.toggle('nav-menu-visible');
+     e.target.classList.toggle('open');
+  }
   return (
     <>
     <div className='navbar'>
 <div className="nav-logo">
   <img src={logo} alt="" width={100}/>
   <p>SHOPPER</p>
-  <ul className="nav-menu">
+  </div>
+  <img className='nav_dropdown' onClick={dropdown_toggle} src={nav_dropdown} width={40} alt="" />
+  <ul ref={menuRef} className="nav-menu">
     <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
     <li onClick={()=>{setMenu("mens")}}><Link  style={{textDecoration:'none'}} to='/mens'>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
     <li onClick={()=>{setMenu("womens")}}><Link  style={{textDecoration:'none'}} to='/womens'>Women</Link>{menu==="womens"?<hr/>:<></>}</li>
     <li onClick={()=>{setMenu("kids")}}><Link   style={{textDecoration:'none'}}to='/kids'>Kids</Link>{menu==="kids"?<hr/>:<></>}</li>
   </ul>
   <div className="nav-login-cart">
-  <Link to='/login'><button>Login</button></Link>
+    {localStorage.getItem('auth-token')
+    ?<button onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Logout</button>
+  : <Link to='/login'><button>Login</button></Link>}
   <Link to='/cart'><img src={logo_cart} alt="" width={40} /></Link>
- <div className="nav-cart-count">0</div>
+ <div className="nav-cart-count">{getTotalCartItems()}</div>
 </div>
 </div>
-    </div>
+  
     </>
   )
 }

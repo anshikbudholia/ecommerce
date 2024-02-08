@@ -10,6 +10,7 @@
     color: #171717;
     font-size: 50px;
     font-weight: 600;
+    align-items: center;
 }
 .newcollections hr{
     width: 200px;
@@ -23,4 +24,66 @@
     margin-top: 50px;
     gap: 10px;
     
+}
+@media(max-width:1067px){
+    
+    .newcollections h1{
+        font-size: 35px;
+ 
+    }
+    .newcollections hr{
+        width: 160px;
+        height: 4px;
+    }
+    .collections{
+        gap: 5px;
+        margin-top: 30px;
+    }
+    
+}
+@media(max-width:1024px){
+    
+    .newcollections h1{
+        font-size: 30px;
+ 
+    }
+    .newcollections hr{
+        width: 90px;
+       
+    }
+    .collections{
+        gap: 0px;
+        margin-top: 10px;
+        margin-left: 34px;
+    
+    }
+    
+}
+@media(max-width:800px){
+    .newcollections{
+       
+        gap: 6px;
+    }
+    .newcollections h1{
+        font-size: 20px;
+ 
+    }
+    .newcollections hr{
+        width: 120px;
+        height: 3px;
+    }
+    .collections{
+        gap: 0px;
+        margin-left: 254px;
+    
+    }
+ 
+}
+@media(max-width:500px){
+   
+    .collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+    }
 }
